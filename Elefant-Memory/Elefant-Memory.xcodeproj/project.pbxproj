@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3BFA3CC262FDD6600BEDEA6 /* Elefant_MemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3B9262FDD6400BEDEA6 /* Elefant_MemoryApp.swift */; };
+		F3BFA3CD262FDD6600BEDEA6 /* Elefant_MemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3B9262FDD6400BEDEA6 /* Elefant_MemoryApp.swift */; };
+		F3BFA3CE262FDD6600BEDEA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3BA262FDD6400BEDEA6 /* ContentView.swift */; };
+		F3BFA3CF262FDD6600BEDEA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3BA262FDD6400BEDEA6 /* ContentView.swift */; };
+		F3BFA3D0262FDD6600BEDEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BFA3BB262FDD6600BEDEA6 /* Assets.xcassets */; };
+		F3BFA3D1262FDD6600BEDEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BFA3BB262FDD6600BEDEA6 /* Assets.xcassets */; };
+		F3BFA3DD262FDDD800BEDEA6 /* MemorGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3DC262FDDD800BEDEA6 /* MemorGame.swift */; };
+		F3BFA3DE262FDDD800BEDEA6 /* MemorGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3DC262FDDD800BEDEA6 /* MemorGame.swift */; };
+		F3BFA3E2262FDE2200BEDEA6 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3E1262FDE2200BEDEA6 /* GridLayout.swift */; };
+		F3BFA3E3262FDE2200BEDEA6 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3E1262FDE2200BEDEA6 /* GridLayout.swift */; };
+		F3BFA3E7262FDE5E00BEDEA6 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3E6262FDE5E00BEDEA6 /* Grid.swift */; };
+		F3BFA3E8262FDE5E00BEDEA6 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3E6262FDE5E00BEDEA6 /* Grid.swift */; };
+		F3BFA3EC262FDE8900BEDEA6 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3EB262FDE8900BEDEA6 /* EmojiMemoryGameView.swift */; };
+		F3BFA3ED262FDE8900BEDEA6 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3EB262FDE8900BEDEA6 /* EmojiMemoryGameView.swift */; };
+		F3BFA3F1262FDEBB00BEDEA6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3F0262FDEBB00BEDEA6 /* EmojiMemoryGame.swift */; };
+		F3BFA3F2262FDEBB00BEDEA6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3F0262FDEBB00BEDEA6 /* EmojiMemoryGame.swift */; };
+		F3BFA3F6262FDF0B00BEDEA6 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3F5262FDF0B00BEDEA6 /* Array+Only.swift */; };
+		F3BFA3F7262FDF0B00BEDEA6 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3F5262FDF0B00BEDEA6 /* Array+Only.swift */; };
+		F3BFA3FB262FDF4C00BEDEA6 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3FA262FDF4C00BEDEA6 /* Array+Identifiable.swift */; };
+		F3BFA3FC262FDF4C00BEDEA6 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BFA3FA262FDF4C00BEDEA6 /* Array+Identifiable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3BFA3B9262FDD6400BEDEA6 /* Elefant_MemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elefant_MemoryApp.swift; sourceTree = "<group>"; };
+		F3BFA3BA262FDD6400BEDEA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3BFA3BB262FDD6600BEDEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BFA3C0262FDD6600BEDEA6 /* Elefant-Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elefant-Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BFA3C3262FDD6600BEDEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BFA3C8262FDD6600BEDEA6 /* Elefant-Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elefant-Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BFA3CA262FDD6600BEDEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BFA3CB262FDD6600BEDEA6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F3BFA3DC262FDDD800BEDEA6 /* MemorGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorGame.swift; sourceTree = "<group>"; };
+		F3BFA3E1262FDE2200BEDEA6 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		F3BFA3E6262FDE5E00BEDEA6 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		F3BFA3EB262FDE8900BEDEA6 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
+		F3BFA3F0262FDEBB00BEDEA6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		F3BFA3F5262FDF0B00BEDEA6 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		F3BFA3FA262FDF4C00BEDEA6 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BFA3BD262FDD6600BEDEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BFA3C5262FDD6600BEDEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3BFA3B3262FDD6400BEDEA6 = {
+			isa = PBXGroup;
+			children = (
+				F3BFA3B8262FDD6400BEDEA6 /* Shared */,
+				F3BFA3C2262FDD6600BEDEA6 /* iOS */,
+				F3BFA3C9262FDD6600BEDEA6 /* macOS */,
+				F3BFA3C1262FDD6600BEDEA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BFA3B8262FDD6400BEDEA6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F3BFA3B9262FDD6400BEDEA6 /* Elefant_MemoryApp.swift */,
+				F3BFA3BA262FDD6400BEDEA6 /* ContentView.swift */,
+				F3BFA3BB262FDD6600BEDEA6 /* Assets.xcassets */,
+				F3BFA3DC262FDDD800BEDEA6 /* MemorGame.swift */,
+				F3BFA3E1262FDE2200BEDEA6 /* GridLayout.swift */,
+				F3BFA3E6262FDE5E00BEDEA6 /* Grid.swift */,
+				F3BFA3EB262FDE8900BEDEA6 /* EmojiMemoryGameView.swift */,
+				F3BFA3F0262FDEBB00BEDEA6 /* EmojiMemoryGame.swift */,
+				F3BFA3F5262FDF0B00BEDEA6 /* Array+Only.swift */,
+				F3BFA3FA262FDF4C00BEDEA6 /* Array+Identifiable.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F3BFA3C1262FDD6600BEDEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BFA3C0262FDD6600BEDEA6 /* Elefant-Memory.app */,
+				F3BFA3C8262FDD6600BEDEA6 /* Elefant-Memory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BFA3C2262FDD6600BEDEA6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3BFA3C3262FDD6600BEDEA6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F3BFA3C9262FDD6600BEDEA6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3BFA3CA262FDD6600BEDEA6 /* Info.plist */,
+				F3BFA3CB262FDD6600BEDEA6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BFA3BF262FDD6600BEDEA6 /* Elefant-Memory (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BFA3D4262FDD6600BEDEA6 /* Build configuration list for PBXNativeTarget "Elefant-Memory (iOS)" */;
+			buildPhases = (
+				F3BFA3BC262FDD6600BEDEA6 /* Sources */,
+				F3BFA3BD262FDD6600BEDEA6 /* Frameworks */,
+				F3BFA3BE262FDD6600BEDEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elefant-Memory (iOS)";
+			productName = "Elefant-Memory (iOS)";
+			productReference = F3BFA3C0262FDD6600BEDEA6 /* Elefant-Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3BFA3C7262FDD6600BEDEA6 /* Elefant-Memory (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BFA3D7262FDD6600BEDEA6 /* Build configuration list for PBXNativeTarget "Elefant-Memory (macOS)" */;
+			buildPhases = (
+				F3BFA3C4262FDD6600BEDEA6 /* Sources */,
+				F3BFA3C5262FDD6600BEDEA6 /* Frameworks */,
+				F3BFA3C6262FDD6600BEDEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elefant-Memory (macOS)";
+			productName = "Elefant-Memory (macOS)";
+			productReference = F3BFA3C8262FDD6600BEDEA6 /* Elefant-Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BFA3B4262FDD6400BEDEA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F3BFA3BF262FDD6600BEDEA6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F3BFA3C7262FDD6600BEDEA6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F3BFA3B7262FDD6400BEDEA6 /* Build configuration list for PBXProject "Elefant-Memory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BFA3B3262FDD6400BEDEA6;
+			productRefGroup = F3BFA3C1262FDD6600BEDEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BFA3BF262FDD6600BEDEA6 /* Elefant-Memory (iOS) */,
+				F3BFA3C7262FDD6600BEDEA6 /* Elefant-Memory (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BFA3BE262FDD6600BEDEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BFA3D0262FDD6600BEDEA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BFA3C6262FDD6600BEDEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BFA3D1262FDD6600BEDEA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BFA3BC262FDD6600BEDEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BFA3DD262FDDD800BEDEA6 /* MemorGame.swift in Sources */,
+				F3BFA3CE262FDD6600BEDEA6 /* ContentView.swift in Sources */,
+				F3BFA3EC262FDE8900BEDEA6 /* EmojiMemoryGameView.swift in Sources */,
+				F3BFA3CC262FDD6600BEDEA6 /* Elefant_MemoryApp.swift in Sources */,
+				F3BFA3E7262FDE5E00BEDEA6 /* Grid.swift in Sources */,
+				F3BFA3FB262FDF4C00BEDEA6 /* Array+Identifiable.swift in Sources */,
+				F3BFA3E2262FDE2200BEDEA6 /* GridLayout.swift in Sources */,
+				F3BFA3F1262FDEBB00BEDEA6 /* EmojiMemoryGame.swift in Sources */,
+				F3BFA3F6262FDF0B00BEDEA6 /* Array+Only.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BFA3C4262FDD6600BEDEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BFA3DE262FDDD800BEDEA6 /* MemorGame.swift in Sources */,
+				F3BFA3CF262FDD6600BEDEA6 /* ContentView.swift in Sources */,
+				F3BFA3ED262FDE8900BEDEA6 /* EmojiMemoryGameView.swift in Sources */,
+				F3BFA3CD262FDD6600BEDEA6 /* Elefant_MemoryApp.swift in Sources */,
+				F3BFA3E8262FDE5E00BEDEA6 /* Grid.swift in Sources */,
+				F3BFA3FC262FDF4C00BEDEA6 /* Array+Identifiable.swift in Sources */,
+				F3BFA3E3262FDE2200BEDEA6 /* GridLayout.swift in Sources */,
+				F3BFA3F2262FDEBB00BEDEA6 /* EmojiMemoryGame.swift in Sources */,
+				F3BFA3F7262FDF0B00BEDEA6 /* Array+Only.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3BFA3D2262FDD6600BEDEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3BFA3D3262FDD6600BEDEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F3BFA3D5262FDD6600BEDEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ErasmoGames.Elefant-Memory";
+				PRODUCT_NAME = "Elefant-Memory";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3BFA3D6262FDD6600BEDEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ErasmoGames.Elefant-Memory";
+				PRODUCT_NAME = "Elefant-Memory";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BFA3D8262FDD6600BEDEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ErasmoGames.Elefant-Memory";
+				PRODUCT_NAME = "Elefant-Memory";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3BFA3D9262FDD6600BEDEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ErasmoGames.Elefant-Memory";
+				PRODUCT_NAME = "Elefant-Memory";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BFA3B7262FDD6400BEDEA6 /* Build configuration list for PBXProject "Elefant-Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BFA3D2262FDD6600BEDEA6 /* Debug */,
+				F3BFA3D3262FDD6600BEDEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BFA3D4262FDD6600BEDEA6 /* Build configuration list for PBXNativeTarget "Elefant-Memory (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BFA3D5262FDD6600BEDEA6 /* Debug */,
+				F3BFA3D6262FDD6600BEDEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BFA3D7262FDD6600BEDEA6 /* Build configuration list for PBXNativeTarget "Elefant-Memory (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BFA3D8262FDD6600BEDEA6 /* Debug */,
+				F3BFA3D9262FDD6600BEDEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BFA3B4262FDD6400BEDEA6 /* Project object */;
+}
