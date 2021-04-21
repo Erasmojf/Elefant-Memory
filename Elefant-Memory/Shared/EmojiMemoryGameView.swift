@@ -31,26 +31,20 @@ struct CardView: View {
     }
    private func body(for size: CGSize) -> some View {
         ZStack {
-            if card.isFaceUp {
-                RoundedRectangle(cornerRadius: cornerRadius).fill(Color.white)
-                RoundedRectangle(cornerRadius: cornerRadius).stroke(lineWidth: edgeLineWidth)
-                Pie(
-                    startAngle: Angle.degrees(0-90), endAngle: Angle.degrees(110-90), clockwise: true)
-                    .padding(5).opacity(0.4)
-                Text(self.card.content)
-            }else{
-                if !card.isMatched {
-                     RoundedRectangle(cornerRadius: 10.0).fill()
-                    
-                }
-            }
+            Pie(
+                startAngle: Angle.degrees(0-90), endAngle: Angle.degrees(110-90), clockwise: true)
+                .padding(5).opacity(0.4)
+            Text(self.card.content)
+                .font(Font.system(size: fontSize(for: size)))
         }
-        .font(Font.system(size: fontSize(for: size)))
+        .modifier(Cardify(isFaceUp: card.isFaceUp))
+//        .cardify(isFaceUp: card.isFaceUp)
+
+        
     }
  
     
-   private let cornerRadius: CGFloat = 10.0
-   private let edgeLineWidth: CGFloat = 3
+   
    private func fontSize(for size: CGSize) -> CGFloat {
         min(size.width, size.height) * 0.7
     }
