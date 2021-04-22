@@ -14,14 +14,16 @@ struct EmojiMemoryGameView: View {
         VStack {
         Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
-                    self.viewModel.choose(card: card)
+                    withAnimation(.linear(duration:2)){
+                      self.viewModel.choose(card: card)
+                    }
                 }
                 .padding(5)
             }
             .padding()
         .foregroundColor(.orange)
             Button(action: {
-                withAnimation(.easeOut){
+                withAnimation(.easeOut(duration: 2)){
                 self.viewModel.resetGame()
                 }
             }, label: {
@@ -51,6 +53,7 @@ struct CardView: View {
                 .animation(card.isMatched ? Animation.linear(duration: 1).repeatForever(autoreverses: false): .default)
         }
         .cardify(isFaceUp: card.isFaceUp)
+        .transition(AnyTransition.scale)
         }
         
     }
