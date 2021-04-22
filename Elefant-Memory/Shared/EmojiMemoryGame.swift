@@ -25,5 +25,8 @@ var cards: Array<MemoryGame<String>.Card>{
 func choose(card: MemoryGame<String>.Card) {
     model.choose(card: card)
   }
+    func resetGame(){
+        model = EmojiMemoryGame.createMemoryGame()
+    }
 }
 
